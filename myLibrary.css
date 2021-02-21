@@ -1,0 +1,16 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.clickable:hover {
+    cursor: pointer;
+}
+.none {
+    display: none;
+}

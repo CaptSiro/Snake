@@ -1,0 +1,36 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+h1 {
+    position: absolute;
+    top: 30px;
+    left: 0;
+    right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+.canvas {
+    height: 480px;
+    width: 640px;
+    display: flex;
+    flex-direction: column;
+}
+.row {
+    height: 40px;
+    width: 100%;
+    display: flex;
+}
+.box {
+    height: 40px;
+    width: 40px;
+    background-color: black;
+}
+.snakeBody {
+    background-color: greenyellow !important;
+}
+.fruit {
+    background-color: rgb(201, 41, 41);
+}
